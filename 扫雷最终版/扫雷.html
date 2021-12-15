@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="扫雷.css" />
+    <style>
+        body {
+            background-image: url(壁纸.gif);
+        }
+
+        div.out {
+            width: auto;
+            padding: 5px;
+            border: 5px solid gray;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="out">
+
+        <div class="text">
+            <b><span>扫雷（Minesweeper）</span></b>
+        </div>
+        <div class="box">
+
+            <button class="button1" style="color:gray;">简单</button>
+
+            <button class="button2" style="color:gray;">中等</button>
+
+            <button class="button3" style="color:gray;">困难</button>
+
+            <button class="button0" style="color:gray ; margin-left: 40px;">重新开始</button>
+
+        </div>
+        <div class="game-pane">
+            <table id="board">
+
+
+            </table>
+        </div>
+    </div>
+
+    <script src="扫雷.js"></script>
+</body>
+
+</html>
