@@ -1,0 +1,66 @@
+
+body {
+    background-size:contain;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight:lighter;
+    color: rgb(111, 111, 111);
+    user-select: none;
+}
+
+.box {
+    text-align: center;
+    user-select: none;
+    margin-top: 30px;
+    color: gray;
+}
+.game-pane {
+    border-style: solid;
+    border-width: 5px;
+    border-color:#aaa;
+    margin-top: 20px;
+
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.cell {
+    background-color: #ccc;
+    width: 1.5em;
+    height: 1.5em;
+
+    border-style: outset;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+.clear {
+    border-style: solid;
+    border-color: #eee;
+    background-color: #eee;
+}
+
+.cell.landmine {
+    background-color: orange;
+}
+
+.cell.landmine.exploded {
+    background-color: red;
+}
+
+.cell.landmine.success {
+    background-color: green;
+}
+
